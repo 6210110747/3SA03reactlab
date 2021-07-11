@@ -9,6 +9,7 @@
     font-family: "Patrick Hand", sans-serif; 
     } 
 
+<<<<<<< HEAD
 
   .activeCard{
     color: aquamarine;
@@ -16,3 +17,15 @@
   }
 
   
+=======
+.activeCard{
+    color: aquamarine;
+    background-color: rgb(14, 10, 5);
+  }
+@media screen {
+  .header{
+    margin :0;
+  }
+  
+}
+>>>>>>> 9e08288664b8b91b6566fe30c05f93aa67671dde
