@@ -1,5 +1,6 @@
 
 import './App.css';
+import React, { useState }from 'react';
 import WordCard from './WordCard';
 import _ from 'lodash'
 
@@ -9,6 +10,9 @@ function App() {
   const word =["Hello","STREAM","MOUTAIN","DISNEY","MOVIE","THAILAND"] ;
   const randomWord = _.sample(word);
 
+  const newGame = () => {
+    window.location.reload()
+  }
   
   return (
     <div className="head">
@@ -18,7 +22,9 @@ function App() {
       <div className="maingame" >
           <WordCard value = {randomWord}/>
       </div>
-      
+      <button className="newgame" onClick={newGame}>
+          Restart
+      </button>
         
       
     </div>

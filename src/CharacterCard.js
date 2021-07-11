@@ -17,10 +17,16 @@ import React, {useState, useEffect,useRef}from 'react';
                attemptRef.current = props.attempt         
             }     
         }) 
-        
+
       const className = `card ${active ? 'activeCard': ''}`
        
-      return (        
-           <div className={className} onClick={activate}>{props.value}</div>    
+      return ( 
+              <div 
+                className={className} onClick={activate}>{props.value}
+            </div>
+
+                 
+           
+
             )    
          } 
