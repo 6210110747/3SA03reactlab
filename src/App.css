@@ -1,4 +1,6 @@
+
 .card {   
+    background: whitesmoke;
     display: inline-block;    
     text-align: center;     
     width: 3em;     
@@ -6,26 +8,28 @@
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);     
     margin: 1em;     
     user-select: none;
-    font-family: "Patrick Hand", sans-serif; 
+    border-radius: 15px;
     } 
 
-<<<<<<< HEAD
-
-  .activeCard{
-    color: aquamarine;
-    background-color: rgb(14, 10, 5);
-  }
-
-  
-=======
 .activeCard{
     color: aquamarine;
     background-color: rgb(14, 10, 5);
   }
-@media screen {
-  .header{
-    margin :0;
+@media screen and (max-width:1025px) {
+  .head{
+    background-color: #D291BC;
+    border-radius: 15px;
+    margin: 0;
+    text-align: center;
+    font-style: italic;
   }
-  
+  .maingame{
+  border-radius: 15px;
+  display: flex;
+  background-color: #E0BBE4 ;
+  }  
+
 }
->>>>>>> 9e08288664b8b91b6566fe30c05f93aa67671dde
+
+
+
