@@ -1,4 +1,5 @@
 import React, {useState, useEffect,useRef}from 'react';
+
  export default function CharacterCard(props) {
       const [active, setActive] = useState(false);
       const attemptRef = useRef(props.attempt);
@@ -11,9 +12,9 @@ import React, {useState, useEffect,useRef}from 'react';
       }
 
       useEffect(() => {                 
-          if(attemptRef.current != props.attempt){             
-              setActive(false)             
-              attemptRef.current = props.attempt         
+          if(attemptRef.current != props.attempt){            
+               setActive(false)             
+               attemptRef.current = props.attempt         
             }     
         }) 
 

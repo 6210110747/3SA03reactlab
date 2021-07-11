@@ -22,8 +22,8 @@ export default function WordCard(props){
         let guess = state.guess + c 
         setState({...state, guess : guess})
 
-        if(guess.length == state.word.length){  //ถ้าตัวอักษรที่ทาย ครบจำนวนเเล้ว ให้ดูว่าเหมือนกับตัวต้นเเบบไหม
-            if (guess == state.word){
+        if(guess.length==state.word.length){  //ถ้าตัวอักษรที่ทาย ครบจำนวนเเล้ว ให้ดูว่าเหมือนกับตัวต้นเเบบไหม
+            if (guess==state.word){
                 console.log('yeah!')
                 setState({...state, completed : true})  // ถ้าเหมือน ถูก
             }else {  
@@ -35,11 +35,12 @@ export default function WordCard(props){
     }
 
     return (
-        <div>
+        <div className="main">
              {
                 state.chars.map((c, i) => 
                     <CharacterCard value ={c} key = {i} activationHandler={activationHandler} attempt={state.attempt}/>)
              }
+             <p class> {state.attempt}</p>
         </div>
     )
 }
