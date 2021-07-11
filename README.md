@@ -7,7 +7,7 @@
 
 ### 1.เพิ่ม คำศัพท์ 
 
-ใช้คำสั่ง const word =["Hello","STREAM","MOUTAIN","DISNEY","MOVIE","THAILAND"] ; เพื่อเพิ่มคำ
+  ใช้คำสั่ง const word =["Hello","STREAM","MOUTAIN","DISNEY","MOVIE","THAILAND"] ; เพื่อเพิ่มคำ
 
 ### 2.คำสั่งสุ่มคำศัพท์
   โดยใช้คำสั่ง const randomWord = _.sample(word);
