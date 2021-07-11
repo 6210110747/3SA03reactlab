@@ -9,7 +9,7 @@ function App() {
   const randomWord = _.sample(word);
 
   const Header=()=>{
-    <h1> Play game </h1>
+    <h1> Play Game </h1>
   }
   return (
     
