@@ -12,3 +12,13 @@
     color: aquamarine;
     background-color: rgb(14, 10, 5);
   }
+body {
+    background: #d0e0e6;
+    /*min-height: 100vh;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    line-height: 1;
+    
+  }
