@@ -13,11 +13,14 @@ function App() {
   return (
     <div className="head">
       <header>
-        <h1> Play Game </h1>
+        <h1> React Game </h1>
       </header>
       <div className="maingame" >
           <WordCard value = {randomWord}/>
       </div>
+      
+        
+      
     </div>
 
   );

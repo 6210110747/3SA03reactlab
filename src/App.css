@@ -9,27 +9,29 @@
     margin: 1em;     
     user-select: none;
     border-radius: 15px;
+    color: black;
     } 
 
 .activeCard{
     color: aquamarine;
     background-color: rgb(14, 10, 5);
   }
-@media screen and (max-width:1025px) {
+
   .head{
     background-color: #D291BC;
     border-radius: 15px;
-    margin: 0;
     text-align: center;
     font-style: italic;
+    color: azure;
+    
   }
   .maingame{
   border-radius: 15px;
-  display: flex;
   background-color: #E0BBE4 ;
+  display: inline-block;  
   }  
 
-}
+
 
 
 
