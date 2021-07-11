@@ -1,15 +1,22 @@
 
 import './App.css';
 import WordCard from './WordCard';
+import _ from 'lodash'
 
-const word = "Hello";
+
 function App() {
+  const word =["Hello","STREAM","MOUTAIN","DISNEY","MOVIE","THAILAND"] ;
+  const randomWord = _.sample(word);
+
+  const Header=()=>{
+    <h1> Play game </h1>
+  }
   return (
-    <div >
-     <WordCard value = {word}/>
-      
-      
-    </div>
+    
+      <div className="maingame" >
+          <WordCard value = {ramdomWord}/>
+      </div>
+    
   );
 }
 
